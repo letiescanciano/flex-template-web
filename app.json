@@ -8,20 +8,24 @@
   "repository": "https://github.com/sharetribe/flex-template-web/",
   "env": {
     "REACT_APP_MAPBOX_ACCESS_TOKEN": {
-      "description": "See: Integrating to map providers documentation https://github.com/sharetribe/flex-template-web/blob/master/docs/map-providers.md"
+      "description": "See: Integrating to map providers documentation https://github.com/sharetribe/flex-template-web/blob/master/docs/map-providers.md",
+      "value": "pk.eyJ1Ijoic3BvcnRtYWRuZXNzIiwiYSI6ImNqcmxxc3FndTBhZ2E0N21mbmk2ZG16cXYifQ.5tdOto-o_v73uyk4-j8h9g"
     },
     "REACT_APP_SHARETRIBE_SDK_CLIENT_ID": {
-      "description": "Client ID (API key). You will get this from the Sharetribe team."
+      "description": "Client ID (API key). You will get this from the Sharetribe team.",
+      "value": "38a96873-911e-4543-9ec8-df3a90aaa889"
     },
     "REACT_APP_STRIPE_PUBLISHABLE_KEY": {
-      "description": "Stripe publishable API key for generating tokens with Stripe API. Use test key (prefix pktest) for development."
+      "description": "Stripe publishable API key for generating tokens with Stripe API. Use test key (prefix pktest) for development.",
+      "value":"pk_test_ebBbDiflHyO6ACR73lI2phBd"
     },
     "REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY": {
       "description": "The currency used in the Marketplace as ISO 4217 currency code. For example: USD, EUR, CAD, AUD, etc.",
-      "value": "USD"
+      "value": "EUR"
     },
     "REACT_APP_CANONICAL_ROOT_URL": {
-      "description": "Canonical root url of the marketplace. E.g. https://the-name-of-your-app.herokuapp.com or your actual domain. This is needed for social media sharing and SEO optimization."
+      "description": "Canonical root url of the marketplace. E.g. https://the-name-of-your-app.herokuapp.com or your actual domain. This is needed for social media sharing and SEO optimization.",
+      "value": "https://sm-platform.herokuapp.com"
     },
     "NODE_ENV": {
       "description": "Node env. Use 'development' for development and 'production' for production.",
