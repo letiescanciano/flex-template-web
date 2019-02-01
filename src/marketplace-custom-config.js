@@ -4,8 +4,8 @@
 
 export const amenities = [
   {
-    key: 'towels',
-    label: 'Towels',
+    key: 'equipacion',
+    label: 'Camiseta y mochila',
   },
   {
     key: 'bathroom',
@@ -38,9 +38,9 @@ export const amenities = [
 ];
 
 export const categories = [
-  { key: 'smoke', label: 'Smoke' },
-  { key: 'electric', label: 'Electric' },
-  { key: 'wood', label: 'Wood' },
+  { key: 'event', label: 'Event' },
+  { key: 'tournament', label: 'Tournament' },
+  { key: 'school', label: 'Sport Club' },
   { key: 'other', label: 'Other' },
 ];
 

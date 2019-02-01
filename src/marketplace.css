@@ -42,9 +42,9 @@
 
   /* ================ Colors ================ */
 
-  --marketplaceColor: #c0392b;
-  --marketplaceColorLight: #ff4c38;
-  --marketplaceColorDark: #8c291e;
+  --marketplaceColor: #000000;
+  --marketplaceColorLight: #33ff99;
+  --marketplaceColorDark: #329999;
 
   /* Used with inline CSS SVGs */
   --marketplaceColorEncoded: %23c0392b;
@@ -56,7 +56,7 @@
   --bannedColorLight: var(--marketplaceColorLight);
   --bannedColorDark: var(--marketplaceColor);
 
-  --matterColorDark: #000000;
+  --matterColorDark: #33ff99;
   --matterColor: #4a4a4a;
   --matterColorAnti: #b2b2b2;
   --matterColorNegative: #e7e7e7;
