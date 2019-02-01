@@ -191,9 +191,9 @@
 
 .contentContainer {
   @media (--viewportMedium) {
-    max-width: 1280px;
+    max-width: 1056px;
     margin: 0 auto;
-    padding: 0 60px;
+    padding: 0 24px;
     display: flex;
     position: relative;
   }

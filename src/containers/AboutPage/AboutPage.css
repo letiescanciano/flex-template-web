@@ -29,6 +29,8 @@
 
   @media (--viewportMedium) {
     flex-wrap: nowrap;
+    max-width: 1056px;
+    padding: 0 24px;
   }
 }
 
