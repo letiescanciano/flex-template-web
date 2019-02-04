@@ -5,7 +5,7 @@ import { FormattedMessage, injectIntl, intlShape } from 'react-intl';
 import { Form as FinalForm } from 'react-final-form';
 import classNames from 'classnames';
 import * as validators from '../../util/validators';
-import { Form, PrimaryButton, FieldTextInput } from '../../components';
+import { Form, PrimaryButton, FieldTextInput} from '../../components';
 
 import css from './SignupForm.css';
 
@@ -22,6 +22,8 @@ const SignupFormComponent = props => (
         handleSubmit,
         inProgress,
         invalid,
+        pristine,
+        required,
         intl,
         onOpenTermsOfService,
       } = fieldRenderProps;
@@ -110,6 +112,7 @@ const SignupFormComponent = props => (
       const classes = classNames(rootClassName || css.root, className);
       const submitInProgress = inProgress;
       const submitDisabled = invalid || submitInProgress;
+      const showAsRequired = pristine && required;
 
       const handleTermsKeyUp = e => {
         // Allow click action with keyboard like with normal links
@@ -163,6 +166,7 @@ const SignupFormComponent = props => (
                 validate={lastNameRequired}
               />
             </div>
+           
             <FieldTextInput
               className={css.password}
               type="password"

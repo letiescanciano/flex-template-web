@@ -7,7 +7,7 @@ const dev = process.env.REACT_APP_ENV === 'development';
 
 // If you want to change the language, remember to also change the
 // locale data and the messages in the app.js file.
-const locale = 'en';
+const locale = 'es';
 const i18n = {
   /*
     0: Sunday
@@ -15,7 +15,7 @@ const i18n = {
     ...
     6: Saturday
   */
-  firstDayOfWeek: 0,
+  firstDayOfWeek: 1,
 };
 
 // Should search results be ordered by distance to origin.
@@ -37,7 +37,7 @@ const bookingProcessAlias = 'preauth-with-nightly-booking/release-1';
 //
 // Note: translations will use different translation keys for night, day or unit
 // depending on the value chosen.
-const bookingUnitType = 'line-item/night';
+const bookingUnitType = 'line-item/units';
 
 // Should the application fetch available time slots (currently defined as
 // start and end dates) to be shown on listing page.
@@ -92,16 +92,16 @@ const streetAddress = 'Bulevardi 14';
 const canonicalRootURL = process.env.REACT_APP_CANONICAL_ROOT_URL;
 
 // Site title is needed in meta tags (bots and social media sharing reads those)
-const siteTitle = 'Saunatime';
+const siteTitle = 'Sportmadness Platform';
 
 // Twitter handle is needed in meta tags (twitter:site). Start it with '@' character
-const siteTwitterHandle = '@sharetribe';
+const siteTwitterHandle = '';
 
 // Instagram page is used in SEO schema (http://schema.org/Organization)
-const siteInstagramPage = null;
+const siteInstagramPage = 'https://www.instagram.com/sportmadness_official/';
 
 // Facebook page is used in SEO schema (http://schema.org/Organization)
-const siteFacebookPage = 'https://www.facebook.com/Sharetribe/';
+const siteFacebookPage = 'https://www.facebook.com/Sportmadness/';
 
 // Facebook counts shares with app or page associated by this id
 // Currently it is unset, but you can read more about fb:app_id from
@@ -165,7 +165,7 @@ const maps = {
   //
   // NOTE: Not used if fuzzy locations are enabled.
   customMarker: {
-    enabled: false,
+    enabled: true,
 
     // Publicly accessible URL for the custom marker image.
     //
